@@ -5,6 +5,7 @@ from tmdbv3api import Movie, TMDb
 movie = Movie()
 tmdb = TMDb()
 tmdb.api_key = 'your api key'
+# tmdb가서 가져오기
 tmdb.language = 'ko-KR'
 
 def get_recommendations(title):
